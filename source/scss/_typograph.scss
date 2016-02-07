@@ -1,0 +1,29 @@
+/* Headings */
+.txt-h1 {
+	@include font(36px, 50px, $font1);
+	color: #5e412f;
+}
+
+.txt-h2 {
+	@include font(30px, 42px, $font1);
+	color: #5e412f;
+}
+
+.txt-h3 {
+	@include font(24px, 32px, $font1);
+	color: #5e412f;
+}
+
+.txt-h4 {
+	@include font(20px, 28px, $font1);
+	color: #5e412f;
+}
+
+.txt-h5 {
+	@include font(16px, 22px, $font1);
+	color: #5e412f;
+}
+
+.st-center {
+	text-align: center;
+}

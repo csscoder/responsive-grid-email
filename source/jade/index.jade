@@ -1,0 +1,192 @@
+//- Base setting size layout
+block mainVariables
+	- var gGutter = 20; //- gutter columns
+	- var gContainer = 600; //- width container
+	- var gColumns = 12; //- size column
+
+//- include base template
+extends _jade-template.jade
+
+//- BODY EMAIL
+block content
+
+	//- screen
+	+wrapper('#f3f3f3', '#fcebb6')
+
+		+roll(20)
+		+row
+			+column-alone(12)
+				.txt-h4.st-center Grid (12 columns, gutter 20px)
+		+roll(20)
+
+		//- line 1
+		+row
+			+column-alone(5)
+				+table('100%', '#f07818')
+					tr
+						+td
+							.txt-h5.st-center +column-alone(5)
+				+roll(20)
+
+		//- End line 1
+		//- line 2
+		+row
+			+column-first(5)
+				+table('100%', '#f07818')
+					tr
+						+td
+							.txt-h5.st-center +column-first(5)
+				+roll(20)
+
+			+column-last(7)
+				+table('100%', '#f07818')
+					tr
+						+td
+							.txt-h5.st-center +column-last(7)
+				+roll(20)
+
+		//- End line 2
+		//- line 3
+		+row
+			+column-first(4)
+				+table('100%', '#f07818')
+					tr
+						+td
+							.txt-h5.st-center +column-first(4)
+				+roll(20)
+			+column(4)
+				+table('100%', '#f07818')
+					tr
+						+td
+							.txt-h5.st-center +column(4)
+				+roll(20)
+			+column-last(4)
+				+table('100%', 'f07818')
+					tr
+						+td
+							.txt-h5.st-center +column-last(4)
+				+roll(20)
+		//- End line 3
+
+		//- line 4
+		+row
+			+column-first(4, 11)
+				+table('100%', '#f07818')
+					tr
+						+td
+							.txt-h5.st-center +column-first(4, 11)
+				+roll(20)
+			+column(3)
+				+table('100%', '#f07818')
+					tr
+						+td
+							.txt-h5.st-center +column(3)
+				+roll(20)
+			+column-last(4)
+				+table('100%', 'f07818')
+					tr
+						+td
+							.txt-h5.st-center +column-last(4)
+				+roll(20)
+		//- End line 4
+
+		//- line 5
+		+row
+			+column-first(6)
+				+table('100%', '#f07818')
+					tr
+						+td
+							.txt-h5.st-center +column-first(6)
+				+roll(20)
+			+column-last(6)
+				+table('100%', 'f07818')
+					tr
+						+td
+							.txt-h5.st-center +column-last(6)
+				+roll(20)
+		//- End line 5
+
+		//- line 6
+		+row
+			+column-alone(12)
+				+table('100%', '#f07818')
+					tr
+						+td
+							.txt-h5.st-center +column-alone(12)
+				+roll(20)
+		//- End line 6
+
+		+roll(20)
+		+row
+			+column-alone(12)
+				.txt-h4.st-center Grid (12 columns, no gutter)
+		+roll(20)
+
+
+		//- line 1
+		+row
+			+fcolumn-alone(12)
+				+table('100%', '#f07818')
+					tr
+						+td
+							.txt-h5.st-center +fcolumn-alone(12)
+				+roll(20)
+		//- End line 1
+
+		//- line 2
+		+row
+			+fcolumn-first(6)
+				+table('100%', '#f0a830')
+					tr
+						+td
+							.txt-h5.st-center +fcolumn-first(6)
+				+roll(20)
+			+fcolumn-last(6)
+				+table('100%', '#f07818')
+					tr
+						+td
+							.txt-h5.st-center +fcolumn-last(6)
+				+roll(20)
+		//- End line 2
+
+		//- line 3
+		+row
+			+fcolumn-first(5, 10)
+				+table('100%', '#f0a830')
+					tr
+						+td
+							.txt-h5.st-center +fcolumn-first(5, 10)
+				+roll(20)
+			+fcolumn-last(5)
+				+table('100%', '#f07818')
+					tr
+						+td
+							.txt-h5.st-center +fcolumn-last(5)
+				+roll(20)
+		//- End line 3
+
+		//- line 4
+		+row
+			+fcolumn-first(4)
+				+table('100%', '#f0a830')
+					tr
+						+td
+							.txt-h5.st-center +fcolumn-first(4)
+				+roll(20)
+			+fcolumn(4)
+				+table('100%', '#f07818')
+					tr
+						+td
+							.txt-h5.st-center +fcolumn(4)
+				+roll(20)
+			+fcolumn-last(4)
+				+table('100%', '#f0a830')
+					tr
+						+td
+							.txt-h5.st-center +fcolumn-last(4)
+				+roll(20)
+		//- End line 4
+
+
+//- END BODY EMAIL
+
