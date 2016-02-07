@@ -73,4 +73,4 @@ Template tests from Litmus.com
 * popular web clients
 
 
-Screens folder [link](https://github.com/csscoderRU/Responsive-Email-Grid/tree/master/screens/)
+Screens folder [link](https://github.com/csscoderRU/responsive-grid-email/tree/master/screens)
