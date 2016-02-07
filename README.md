@@ -1,7 +1,7 @@
 # Responsive Email Grid<br> (extendable)
 Build system use SASS, JADE preprocessors. Base is Gulp.js
 
-[![CSSCODER grid email](https://raw.githubusercontent.com/csscoderRU/responsive-grid-email/master/screens/thumb.jpg)](http://dev.csscoder.pro/emails/Responsive-Email-Grid/index.html)
+[![CSSCODER grid email](https://raw.githubusercontent.com/csscoderRU/responsive-grid-email/master/screens/thumb.png)](http://dev.csscoder.pro/emails/Responsive-Email-Grid/index.html)
 
 ### Example [link](http://dev.csscoder.pro/emails/Responsive-Email-Grid/index.html)
 
